@@ -1,0 +1,49 @@
+.number-line {
+    position: relative;
+    width: 80%;
+    height: 2px;
+    margin-left: 100px;
+    background-color: #e04b4b;
+    margin-top: 200px;
+    
+}
+
+
+.tick {
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    background-color: #000;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.label {
+    position: absolute;
+    font-size: 12px;
+    top: 50%;
+    transform: translateX(-50%) translateY(-100%);
+}
+
+.user-point {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 100%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#user-input {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#button{
+    margin-top: 20px;
+}
+
+.label{
+    font-size: 20px;
+}
